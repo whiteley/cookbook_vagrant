@@ -18,9 +18,9 @@
 #
 
 dmg_package 'Vagrant' do
-  checksum node['vagrant']['checksum']
-  dmg_name node['vagrant']['dmg_name']
+  checksum   node['vagrant']['checksum']
+  dmg_name   node['vagrant']['dmg_name']
   package_id 'com.vagrant.vagrant'
-  source node['vagrant']['source']
-  type 'pkg'
+  source     node['vagrant']['source']
+  type       'pkg'
 end
